@@ -1,0 +1,32 @@
+{
+    "name": "canaryphp/canaryphptools",
+    "type": "library",
+    "description": "CanaryPHPTools Tools to improve your project code",
+    "authors":[
+        {
+            "name": "Mohammed boubazine",
+            "email": "mohamedtorino161@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "wiki": "https://github.com/canaryphp/canaryphptools/wiki",
+        "issues": "https://github.com/canaryphp/canaryphptools/issues"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "phpmailer/phpmailer": "^6.1.1"
+    },
+    "require-dev": {
+        
+    },
+    "suggest": {
+        "phpmailer/phpmailer": "For mail transfer"
+    },
+    "autoload": {
+		"psr-4": {
+            "CanaryPHPTools\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
